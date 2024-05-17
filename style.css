@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    color: #000000;
+}
+h1{
+    color:#000000;
+    padding-left: 5%;
+}
+h2{
+    color:#000000;
+}
+p {
+    text-align: justify; /*Centrar*/
+    text-decoration: underline; /*Subrayado del texto*/
+    text-transform: uppercase; /*Transformacion a mayus*/
+    line-height: 1.5;
+    color:#000000;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+form{
+    background-color: #000000;
+    width: relative;
+    margin-right: 20%;
+    color: #000000;
+}
+td{
+    border: 1px solid black;
+}
+img{
+    width: 50%;
+}
+#primer{
+    color: blue;
+}
+.vd{  
+    color: green;
+}
+.pixelify-sans-px{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.celda{
+    color: #339;
+}
+/* Estilos para el modo nocturno */
+body.modo-nocturno {    
+background-color: #111;
+color: #eee;
+}
+h1.modo-nocturno {
+color: #eee;
+}
+h2.modo-nocturno{
+color:#000000;
+}
+p.modo-nocturno {
+color: #ddd;
+}
+table.modo-nocturno {
+background-color: #222;
+}
+td.modo-nocturno {
+border: 1px solid #ccc;
+}
